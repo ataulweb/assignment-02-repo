@@ -1,5 +1,27 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+
+
+.container{
+    display: flex;
+    height: 646px;
+    width: 1101px;
+    border: 1px solid maroon;
+    margin: auto;
+    margin-top: 10vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    align-items: center;
+    background-color: #161616;
+    
+}
+
+.header-text{
+    width: 50%;
+    color: white;
+    
+    
+}
+
+.header-image{
+    width: 50%;
+
 }
