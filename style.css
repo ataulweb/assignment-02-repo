@@ -67,7 +67,7 @@ Header section start
 }
 .header-image img{
     width: 70vh;
-    display: block;
+    margin-bottom: -14vh;
 }
 
 /*---------------------
