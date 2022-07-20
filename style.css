@@ -1,9 +1,17 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
 
+/*---------------------
+Header section start 
+---------------------*/
 .container{
     display: flex;
-    height: 646px;
-    width: 1101px;
+    height: 500px;
+    width: 1050px;
     border: 1px solid maroon;
     margin: auto;
     margin-top: 10vh;
@@ -11,17 +19,50 @@
     margin-right: 20vh;
     align-items: center;
     background-color: #161616;
+    border-radius: 20px;
+    justify-content: center;
+    padding: 30px;
     
 }
 
 .header-text{
     width: 50%;
-    color: white;
-    
-    
+    color: white;  
 }
 
+.header-text h1{
+    font-weight: 700px;
+    font-size: 70px;
+    line-height: 80px;
+}  
+
+.btn{
+    padding: 10px 40px;
+    background-color: #DD0000;
+    color: white;
+    border-radius: 8px;
+    transition-property: width;
+    transition: 2s;
+    border: 1px solid white;
+    font-weight: 700px;
+}
+
+.btn:hover{
+    border: 3px solid blue;
+    transform: rotateY(40deg);
+}
+
+.btn .fa-tv{
+    margin-left: 15px;
+}
 .header-image{
     width: 50%;
 
 }
+.header-image img{
+    width: 70vh;
+}
+
+/*---------------------
+Header section end 
+---------------------*/
