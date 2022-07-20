@@ -231,9 +231,9 @@ Upcomming match website finished
 
 /* All Group website end */
 
-/*-------------------------
-Responsive smaller device 
----------------------------*/
+/*------------------------------------------
+Start Responsive smaller device for blog-website  
+-------------------------------------------*/
 @media only screen and (max-width:576px) {
 
     .container{
@@ -249,9 +249,9 @@ Responsive smaller device
     }
 
     .header-text h1{
-        line-height: 6vw;
+        line-height: 4vw;
         padding: 0;
-        font-size: 6vw;
+        font-size: 5vw;
 
     }
     .header-image img{
@@ -260,20 +260,20 @@ Responsive smaller device
         margin: 0;
     }
     .main-container{
-        margin: 0;
+        
         display: inline-block;
     }
-    .main-button{
-        width: 100%;
-        display: inline;
-        grid-template-rows: repeat(1, 1fr);
-        overflow: hidden;
-        
+
+    .main-details{
+        grid-template-columns: repeat(1, 1fr);
     }
 
-    .main-container{
-        flex-direction: column;
-        justify-content: center;
-        
+    .footer-content span{
+        display: block;
     }
+
 }
+
+/*------------------------------------------
+End Responsive smaller device for blog-website  
+-------------------------------------------*/
