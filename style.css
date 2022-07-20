@@ -161,6 +161,7 @@ Footer-Section
     color: white;
     text-align: center;
     padding-top: 22vh;
+    margin-top: 7vh;
 }
 
 .footer-section span{
@@ -173,3 +174,28 @@ Footer-Section
 
 }
 
+
+/* Upcomming Matches Website */
+
+.flag-img{
+    display: flex;
+    padding: 5vh;
+    
+}
+
+.upcomming-match{
+    border: 1px solid rgba(210, 199, 199, 0.522);
+    border-radius: 1vh;
+    
+}
+.upcomming-match h3{
+    margin-top: -3vh;
+    text-align: center;
+    font-size: 2.5vh;
+}
+.upcomming-match p{
+    color: #4D4D4D;
+    font-size: 2vh;
+    text-align: center;
+
+}
