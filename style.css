@@ -43,13 +43,17 @@ Header section start
     border-radius: 8px;
     transition-property: width;
     transition: 2s;
-    border: 1px solid white;
+    border: 2px solid white;
     font-weight: 700px;
 }
 
 .btn:hover{
-    border: 3px solid blue;
-    transform: rotateY(40deg);
+    border: 2px solid blue;
+    transform: rotateY(30deg);
+    background-color: gray;
+    color: #DD0000;
+    font-weight: 800px;
+    cursor: pointer;
 }
 
 .btn .fa-tv{
@@ -66,3 +70,39 @@ Header section start
 /*---------------------
 Header section end 
 ---------------------*/
+
+/*---------------------
+Main section start 
+---------------------*/
+
+main{
+    margin-top: 18vh;
+}
+
+.main-container{
+    display: flex;
+    
+}
+
+.main-button{
+    display: flex;
+    flex-direction: column;
+    background-color: #161616;
+    width: 250px;
+    height: 250px;
+    row-gap: 30px;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 20px;
+}
+.main-button a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px 50px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 700;
+    background-color: white;
+    color: #161616;
+    padding: 18px 0;
+}
