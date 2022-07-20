@@ -37,23 +37,25 @@ Header section start
 }  
 
 .btn{
-    padding: 10px 40px;
+    padding: 13px 40px;
     background-color: #DD0000;
     color: white;
     border-radius: 8px;
     transition-property: width;
     transition: 2s;
-    border: 2px solid white;
+    border: 2px solid gray;;
     font-weight: 700px;
+    font-size: 18px;
 }
 
 .btn:hover{
-    border: 2px solid blue;
-    transform: rotateY(30deg);
+    border: 2px solid #DD0000;;
+    transform: rotateY(360deg);
     background-color: gray;
     color: #DD0000;
     font-weight: 800px;
     cursor: pointer;
+    animation-play-state: running;
 }
 
 .btn .fa-tv{
@@ -106,4 +108,22 @@ main{
     background-color: white;
     color: #161616;
     padding: 18px 0;
+}
+
+/* ------------------
+Live-Match Section 
+--------------------*/
+.main-details{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+    row-gap: 20px;
+}
+
+.live-match{
+    border: 1px solid rgba(210, 199, 199, 0.522);
+}
+
+.live-match img{
+    width: 100%;
 }
