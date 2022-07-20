@@ -199,3 +199,25 @@ Footer-Section
     text-align: center;
 
 }
+
+/* --------------------------------
+Upcomming match website finished 
+-----------------------------------*/
+
+/* All Group website strat */
+
+.player{
+    text-align: center;
+    padding: 0 4vh;
+    border: 1px solid rgba(210, 199, 199, 0.522);
+    border-radius: 2vh;
+    margin-bottom: 2vh;
+}
+
+.player-comment{
+    margin-left: 5vh;
+    margin-right: 2vh;
+
+}
+
+/* All Group website end */
