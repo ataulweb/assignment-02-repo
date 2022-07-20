@@ -148,6 +148,7 @@ Live-Match Section
     display: flex;
     padding: 18px;
     justify-content: space-between;
+    color: #4D4D4D;
 }
 
 
@@ -173,7 +174,15 @@ Footer-Section
     padding: 5vh;
 
 }
+.social-icon{
+    padding: 7vh;
+    font-size: 4vh;
+}
 
+.social-icon i{
+    margin-right: 3vh;
+    color: #B9B9B9;
+}
 
 /* Upcomming Matches Website */
 
