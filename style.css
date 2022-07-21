@@ -232,7 +232,7 @@ Upcomming match website finished
 /* All Group website end */
 
 /*------------------------------------------
-Start Responsive smaller device for blog-website  
+Start Responsive smaller (Mobile) device 
 -------------------------------------------*/
 @media only screen and (max-width:576px) {
 
@@ -241,13 +241,11 @@ Start Responsive smaller device for blog-website
         margin: auto;
         padding: 0;
         flex-direction: column;
-
     }
     .header-text{
         
         text-overflow: ellipsis;
     }
-
     .header-text h1{
         line-height: 4vw;
         padding: 0;
@@ -263,17 +261,51 @@ Start Responsive smaller device for blog-website
         
         display: inline-block;
     }
-
     .main-details{
         grid-template-columns: repeat(1, 1fr);
     }
-
     .footer-content span{
         display: block;
     }
+}
+/*------------------------------------------
+End Responsive smaller (Mobile) device 
+-------------------------------------------*/
 
+/*------------------------------------------
+Start Responsive medium device (Tablet) 
+-------------------------------------------*/
+@media screen and (min-width: 577px) and (max-width:992px) {
+    .container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+    .header-text{
+        text-overflow: ellipsis;
+    }
+    .header-text h1{
+    font-size: 2em;
+    line-height: 3rem;
+    }
+    
+
+    .header-image img{
+        width: 300px;
+        height: auto;
+
+    }
+    .main-container{
+        display: inline-block;
+    }
+    
+    .main-details{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
 }
 
 /*------------------------------------------
-End Responsive smaller device for blog-website  
+End Responsive medium device (Tablet) 
 -------------------------------------------*/
