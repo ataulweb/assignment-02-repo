@@ -298,14 +298,38 @@ Start Responsive medium device (Tablet)
     }
     .main-container{
         display: inline-block;
+        
     }
     
     .main-details{
         grid-template-columns: repeat(2, 1fr);
     }
-    
+    .bonus-btn{
+        display: block;
+        
+    }
+
 }
 
 /*------------------------------------------
 End Responsive medium device (Tablet) 
 -------------------------------------------*/
+
+/* Bonus Button start*/
+
+.bonus-btn button{
+    padding: 15px 35px; 
+    color: white; 
+    background-color: orangered;
+    border-radius: 8px; 
+    font-size: 16px; 
+    cursor: pointer;
+}
+
+.bonus-btn{
+    padding: 25px;
+    text-align: center;
+    display: none;
+}
+
+/* Bonus Button End*/
